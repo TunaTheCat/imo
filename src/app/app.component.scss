@@ -11,29 +11,26 @@
 
 
 .card {
-    height: 75%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #4d4d4d;
 }
 
 
 
 .content {
-height: 100%;
-   display: grid;
-   grid-template-columns: auto;
-   grid-template-rows: 5% 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 75% 25%;
 }
 .contentCard{
 
-    grid-row-start: 2;
-    margin: 2.5% 2.5% 0% 2.5%;
-    background-color: map-get($haebChlaebImmo-primary, 500);
+    grid-row-start: 1;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    background-color: map-get($indigo, 500);
 }
 
 .navB {
-    grid-row-start: 1;
     /*background-color: wheat;*/
 }
 
@@ -46,6 +43,7 @@ height: 100%;
 }
 
 .foot {
-    grid-row-start: 3;
-    background-color: wheat;
+    height: 100%;
+    grid-row-start: 2;
+    background-color: map-get($grey, 400);
 }
