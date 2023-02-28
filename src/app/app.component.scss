@@ -26,8 +26,8 @@
 .contentCard{
 
     grid-row-start: 1;
-    margin: 2.5% 2.5% 2.5% 2.5%;
-    background-color: map-get($indigo, 500);
+    margin: 2.5% 2.5% 2.5% 2.5%; 
+    background-color: map-get($haebChlaebImmo-accent, 500);
 }
 
 .navB {
@@ -50,5 +50,5 @@
 .foot {
     height: 100%;
     grid-row-start: 2;
-    background-color: map-get($grey, 400);
+    background-color: map-get($haebChlaebImmo-primary,700);
 }
