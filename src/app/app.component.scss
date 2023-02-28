@@ -1,0 +1,51 @@
+
+@import '../custom-theme.scss';
+
+.wrapper {
+    height: 100%;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 75% 10%;
+}
+
+
+.card {
+    height: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #4d4d4d;
+}
+
+
+
+.content {
+height: 100%;
+   display: grid;
+   grid-template-columns: auto;
+   grid-template-rows: 5% 95%;
+}
+.contentCard{
+
+    grid-row-start: 2;
+    margin: 2.5% 2.5% 0% 2.5%;
+    background-color: map-get($haebChlaebImmo-primary, 500);
+}
+
+.navB {
+    grid-row-start: 1;
+    /*background-color: wheat;*/
+}
+
+.placeTop {
+    grid-row-start: 1;
+}
+
+.placeBot {
+    grid-row-start: 3;
+}
+
+.foot {
+    grid-row-start: 3;
+    background-color: wheat;
+}
