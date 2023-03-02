@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/material.module';
 import { ImoComponent } from './sites/imo/imo.component';
+import { HomeComponent } from './sites/home/home.component';
+import { CompanyComponent } from './sites/company/company.component';
+import { ContactComponent } from './sites/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImoComponent
+    ImoComponent,
+    HomeComponent,
+    CompanyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
