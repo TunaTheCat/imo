@@ -21,13 +21,13 @@
     height: 100%;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: 85% 15%;
 }
 .contentCard{
     grid-row-start: 1;
-    margin: 2.5% 2.5% 2.5% 2.5%;
-    background-color: map-get($haebChlaebImmo-accent, 500);
-    opacity: 0.4;
+    // margin: 2.5% 2.5% 2.5% 2.5%;
+    // background-color: map-get($haebChlaebImmo-primary, 700);
+    // opacity: 0.4;
 }
 
 .navI {
@@ -46,5 +46,5 @@
 .foot {
     height: 100%;
     grid-row-start: 2;
-    background-color: map-get($haebChlaebImmo-primary, 700);
+    background-color: map-get($haebChlaebImmo-accent, 800);
 }
